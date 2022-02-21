@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gastronomia</title>
+    <link rel="icon" href="../Imagenes/icono.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
+<body>
+    <!---barra de navegacion-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../Imagenes/Logo.png" alt="logo" width="100px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Gastronomia.html">Gastronomia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Entretenimiento.html">Entretenimiento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Quehacer.html">¿Qué Hacer?</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container-fluid bg-warning p-5">
+    
+    <h3>
+        Disfruta de nuestra gastronomía
+        <small class="text-muted">Mas Exclusiva</small>
+    </h3>
+    <p>A la hora de comer en Buenos Aires, encontraras platos consistentes, ricos y sabrosos. La gastronomía argentina se diferencia de la del resto de América por mantener su carácter criollo e indígena mientras muestra una gran influencia de la gastronomía europea, especialmente de la cocina italiana y la española.</p>
+
+    
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Reservar!
+</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">RESERVA YA! </h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <a href="https://www.restorando.com/" target="_blank">
+
+        <button type="button" class="btn btn-link">https://www.restorando.com/</button>
+
+      </a>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!--descripcion Gastronomica-->
+<div class="container-fluid">
+
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4 bg-dark text-white p-3">
+          <h2>Parrillas</h2>
+          <p>El origen gastronómico de este plato, radica en los tiempos en los cuales existían los gauchos en las pampas argentinas. Los gauchos eran los nómadas que recorrían el lugar con un vestuario característico, pantalones anchos, camisas blancas y botas.
+
+            Cuando los gauchos se encontraban recorriendo los caminos, cazaban las vacas que se encontraban libres y las asaban para su supervivencia, alimento necesario para la vida de cazador y recolector, siendo este el inicio de los asados, sin saberlo.
+            
+            El arte de los gauchos radicaba en la colocación de los palos en el suelo y la habilidad para encenderlos y comenzar la cocción.</p>
+      </div>
+      <div class="col bg-dark text-white p-3">
+        <h2>Pastas</h2>
+        <p>Los inmigrantes italianos bajaron de los barcos en el puerto de Buenos Aires a principios del siglo XX, con muchas incógnitas, incontables deseos, tristezas y esperanzas. Pero también con palos de amasar y con recetas ancestrales de cada uno de sus pueblos, donde la pasta fue siempre parte de sus vidas. Venían con tradiciones sobre cómo hacerlas y cómo acompañarlas con sus salsas, pero Argentina los recibió con los brazos abiertos y muchísimas vacas dispuestas a tentarlos para cambiar su menú.
+
+          Esos inmigrantes italianos nunca imaginaron que se pudiera comer tanta y tan buena carne. Algo casi imposible en su tierra, acá se volvió cotidiano, simple, fácil, y es por eso que la carne se metió en la pasta. Se hizo cómplice de cada comida, cambiando recetas y creando nuevos platos, nuevos nombres, y más que nada, nuevas sonrisas de felicidad.</p>
+      </div>
+      <div class="col bg-dark  text-white p-3">
+        <h2>Minutas</h2>
+        <p>No existe una definición taxativa de los platos que deben ser considerados minutas, pero sí existe una característica común que las define. Son platos integrados por las comidas argentinas más sencillas y más populares. La base principal de estos platos, que conforman las minutas argentinas, son la carne y las pastas, pero seríamos mezquinos si agotamos la lista sólo en ellas.</p>
+      </div>
+    </div>
+      <!-- 3 restaurante para reservar y breve descripcion-->
+    <div class="card-group">
+      <div class="card p-3">
+        <img src="../Imagenes/chila.jpg" class="card-img-top" alt="Chila">
+        <div class="card-body">
+          <h5 class="card-title">Chila</h5>
+          <p class="card-text">En el moderno barrio de Puerto Madero, Chila, el restaurante de Andrés Porcel está a la altura, siempre en constante evolución desde hace más de 10 años. El Chef Pedro Bargero es el responsable de la innovación en cocina. </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.chilarestaurant.com/" target="_blank">
+
+            <button type="button" class="btn btn-dark">Visitar</button>
+          
+          </a>
+        </div>
+      </div>
+      <div class="card p-3">
+        <img src="../Imagenes/tegui.jpg" class="card-img-top" alt="tegui">
+        <div class="card-body">
+          <h5 class="card-title">Tegui</h5>
+          <p class="card-text">Tegui es uno de los mejores restaurantes de Argentina, Latinoamérica y el mundo, el restaurante en el que la sorprendente cocina del chef Germán Martitegui pulula en libertad, maravillando con su extravagancia y sencillez.</p>
+        </div>
+        <div class="card-footer">
+          <a href="http://www.tegui.com.ar/" target="_blank">
+
+            <button type="button" class="btn btn-dark">Visitar</button>
+          
+          </a>
+        </div>
+      </div>
+      <div class="card p-3">
+        <img src="../Imagenes/donjulio.jpg" class="card-img-top" alt="DonJulio">
+        <div class="card-body">
+          <h5 class="card-title">Don Julio</h5>
+          <p class="card-text">Don Julio se encuentra en  el barrio porteño de Palermo (Guatemala 4699) y se destaca por servir cortes de carne premium a la parrilla, acompañados por vegetales y productos orgánicos de cada temporada -cultivados especialmente para el restaurante- y embutidos elaborados de manera artesanal.</p>
+        </div>
+        <div class="card-footer">
+          <a href="https://www.parrilladonjulio.com/" target="_blank">
+
+            <button type="button" class="btn btn-dark">Visitar</button>
+          
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+
+          
+          
+          
+        </div>
+      
+        
+        <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+          <div class="container text-center">
+            <small>Copyright &copy; RUMBO.COM</small>
+          </div>
+        </footer>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
